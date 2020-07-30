@@ -1,7 +1,7 @@
 FORMAT: 1A
 HOST: https://example.com
 
-# Sample API Documentation 1
+# Sample API Documentation 2
 ### INTRODUCTION
 Sample api documentation for sample project.
 
