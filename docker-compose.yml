@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  aglio:
+    build: .
+    ports:
+      - '4000:4000'
+    volumes:
+      - './md:/projects'
+      - './:/docs'
+    tty: true
+    # htmlを作成するときのテーマを決めれます。
+    # https://github.com/danielgtaylor/aglio#example-output
+    command: aglio --theme-variables default --theme-template triple -i index.md -s -h 0.0.0.0 -p 4000
