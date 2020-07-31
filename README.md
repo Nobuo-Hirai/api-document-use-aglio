@@ -18,7 +18,7 @@ http://localhost:4000/
 # development flow
 
 1. mdディレクトリ配下のmdファイルを修正すると自動的にweb側へ反映されるのでwebを確認しながらドキュメントを修正します。
-2. docsディレクトリ配下のhtmlファイルは更新されないのでmdファイルを全て修正したら下記のコマンドを実行してhtmlファイルを生成します。
+2. index.htmlファイルは更新されないのでmdファイルを全て修正したら下記のコマンドを実行してhtmlファイルを生成します。
    ```bash
      # コンテナ内でhtmlを生成するコマンドを実行
      docker-compose exec aglio bash
